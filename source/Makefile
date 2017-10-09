@@ -1,5 +1,5 @@
 
-output: main.o functions.o
+output.o: main.o functions.o
 	g++ main.o functions.o -o output
 
 main.o: main.cpp
